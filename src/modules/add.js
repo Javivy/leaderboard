@@ -6,7 +6,7 @@ const addNew = () => {
   const addBtn = document.querySelector('.add-btn');
   const nameInput = document.getElementById('name');
   const scoreInput = document.getElementById('score');
-  const listContainer = document.querySelector('.list-container');
+  const listContainer = document.querySelector('.list-ul');
 
   addBtn.addEventListener('click', () => {
     if (nameInput.value !== '' && scoreInput.value !== '') {
