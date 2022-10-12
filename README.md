@@ -22,7 +22,7 @@ To get a local copy up and running follow these simple example steps.
   - Clone the github repository to your machine 
     - Copy the link of the repository
     - Go to your terminal and write __git clone (github repository link goes here without the brackets)__
-    - cd portfolio-microverse
+    - cd leaderbard
 
 Now you will be able to get a look to the repository, make some changes, test it and more!
 
