@@ -11,7 +11,7 @@ const displayList = (listContainer, list) => {
 
       li.classList.add('list-item');
 
-      li.textContent = `${listItem.name}: ${listItem.score}`;
+      li.textContent = `${listItem.user}: ${listItem.score}`;
       listContainer.appendChild(li);
       // Different background for odd and even list
       if (index % 2 === 0) {

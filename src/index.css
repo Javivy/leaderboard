@@ -58,6 +58,8 @@ h1 {
 
 ul {
   list-style: none;
+  max-height: 20rem;
+  overflow-y: auto;
 }
 
 .list-container {
