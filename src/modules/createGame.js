@@ -11,8 +11,7 @@ const newGame = async () => {
       },
     });
   const result = await response.json();
-  console.log(result.result);
-  return response.json;
+  return result;
 };
 
 export default newGame;
