@@ -4,14 +4,14 @@ const displayList = (listContainer, list) => {
     // Remove border from list container
     listContainer.style.border = 'none';
   } else {
-    listContainer.style.border = '2px solid #444';
+    listContainer.style.border = '4px solid #fff';
     listContainer.innerHTML = '';
     list.forEach((listItem, index) => {
       const li = document.createElement('li');
 
       li.classList.add('list-item');
 
-      li.textContent = `${listItem.user}: ${listItem.score}`;
+      li.innerHTML = `${listItem.user}: <span class="score-number">${listItem.score}<span>`;
       listContainer.appendChild(li);
       // Different background for odd and even list
       if (index % 2 === 0) {
