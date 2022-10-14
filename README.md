@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 Now you will be able to get a look to the repository, make some changes, test it and more!
 
-## Authors
+## Author
 
 👤 **Javivy**
 
