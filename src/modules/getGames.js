@@ -22,7 +22,8 @@ const getGames = async () => {
       method: 'GET',
     });
   const data = await response.json();
-  return data.result;
+  const sortedScores = data.result.sort((a, b) => b.score - a.score);
+  return sortedScores;
 };
 
 export { createScore, getGames };
