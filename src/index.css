@@ -57,6 +57,7 @@ h2 {
 
 .list {
   margin: 1rem auto;
+  width: 80%;
 }
 
 .list-item {
@@ -67,6 +68,8 @@ h2 {
 
 .score-number {
   font-weight: bold;
+  float: right;
+  margin-right: 1rem;
 }
 
 /* STYLE THE LIST HEADER */
@@ -117,6 +120,7 @@ ul {
 
 .add-score {
   margin: 1rem auto;
+  width: 80%;
 }
 
 .add-score-container {
@@ -175,6 +179,7 @@ input::placeholder {
   border: 3px solid #fff;
   background: #0cc725;
   color: #fff;
+  margin: 0 auto;
   animation: slide-up 3s forwards cubic-bezier(0.43, 0.03, 0.35, 1.01);
 }
 
