@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Not available yet](https://github.com/Javivy/leaderboard)
+[Live demo to the leaderboard](https://javivy.github.io/leaderboard/dist)
 
 
 ## Getting Started
