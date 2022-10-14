@@ -12,6 +12,19 @@ const createScore = async (name, score) => {
       },
     });
   const data = await response.json();
+  if (response.ok) {
+    const successMsg = document.querySelector('.success');
+    successMsg.classList.remove('visible');
+    setTimeout(() => {
+      successMsg.classList.add('visible');
+    }, 3000);
+  } else {
+    const errorMsg = document.querySelector('.error');
+    errorMsg.classList.remove('visible');
+    setTimeout(() => {
+      errorMsg.classList.add('visible');
+    }, 3000);
+  }
   return data.result;
 };
 
@@ -22,7 +35,8 @@ const getGames = async () => {
       method: 'GET',
     });
   const data = await response.json();
-  return data.result;
+  const sortedScores = data.result.sort((a, b) => b.score - a.score);
+  return sortedScores;
 };
 
 export { createScore, getGames };

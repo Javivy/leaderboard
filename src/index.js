@@ -7,4 +7,4 @@ addNew();
 
 const listContainer = document.querySelector('.list-ul');
 
-listContainer.innerHTML = '<p>Refresh to see the scores</p>';
+listContainer.innerHTML = '<p style="color: #fff; font-weight: bold">Refresh to see the scores</p>';
